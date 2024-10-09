@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     
-    <Grid>
-        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
-        <Button Content="Go to Page 1" Width="100" Height="30" Click="GoToPage1_Click"/>
-        <Button Content="Go to Page 2" Width="100" Height="30" Click="GoToPage2_Click"/>
-    </Grid>
-
+    
+        <StackPanel>
+            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
+            <Button Content="Go to Page 1" Width="100" Height="30" Click="GoToPage1_Click"/>
+            <Button Content="Go to Page 2" Width="100" Height="30" Click="GoToPage2_Click"/>
+        </StackPanel>
 </Window>
