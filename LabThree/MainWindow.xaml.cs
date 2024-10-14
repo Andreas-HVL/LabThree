@@ -20,15 +20,19 @@ namespace LabThree
         {
             InitializeComponent();
         }
+        
         private void GoToPage1_Click(object sender, RoutedEventArgs e)
         {
             // Navigate to Page1
-            MainFrame.NavigationService.Navigate(new Page1());
+            MainFrame.NavigationService.Navigate(new Boka());
+            MessageBox.Show("Hej, Boka");
         }
         private void GoToPage2_Click(object sender, RoutedEventArgs e)
         {
             // Navigate to Page2
-            MainFrame.NavigationService.Navigate(new Page2());
+            MainFrame.NavigationService.Navigate(new Avboka());
+            MessageBox.Show("Hej, Avboka");
         }
+        
     }
 }

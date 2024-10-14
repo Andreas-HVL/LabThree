@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace LabThree
 {
     /// <summary>
-    /// Interaction logic for Page1.xaml
+    /// Interaction logic for Avboka.xaml
     /// </summary>
-    public partial class Page1 : Page
+    public partial class Avboka : Page
     {
-        public Page1()
+        public Avboka()
         {
             InitializeComponent();
         }

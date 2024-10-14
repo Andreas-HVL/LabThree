@@ -5,12 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabThree"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="640" Width="1040">
+        
+    <Window.Background>
+        <ImageBrush ImageSource="Images/1.jpg"/>
+    </Window.Background>
     
-    
+    <Grid>
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Frame x:Name="Boka" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <Frame x:Name="Avboka" NavigationUIVisibility="Hidden" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
         <StackPanel>
-            <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"/>
             <Button Content="Go to Page 1" Width="100" Height="30" Click="GoToPage1_Click"/>
             <Button Content="Go to Page 2" Width="100" Height="30" Click="GoToPage2_Click"/>
         </StackPanel>
+    </Grid>
+    
 </Window>

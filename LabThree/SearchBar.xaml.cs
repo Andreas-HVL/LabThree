@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace LabThree
 {
     /// <summary>
-    /// Interaction logic for Page2.xaml
+    /// Interaction logic for SearchBar.xaml
     /// </summary>
-    public partial class Page2 : Page
+    public partial class SearchBar : UserControl
     {
-        public Page2()
+        public SearchBar()
         {
             InitializeComponent();
         }
